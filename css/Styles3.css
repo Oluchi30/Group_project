@@ -12,3 +12,12 @@ body {
 .carousel{
   width: 500px;
 }
+.navbar-nav{
+  display: inline-block;
+}
+h2{
+  color: #f2760a;
+}
+p{
+  font-family: cursive;
+}

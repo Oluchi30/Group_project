@@ -1,0 +1,23 @@
+body {
+  padding-top: 8rem;
+  color: orange;
+  font-family: fantasy;
+  background-color: #b7e0f7;
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.carousel{
+  width: 500px;
+}
+.navbar-nav{
+  display: inline-block;
+}
+h2{
+  color: #f2760a;
+}
+p{
+  font-family: cursive;
+}
