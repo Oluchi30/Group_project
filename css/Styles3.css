@@ -3,7 +3,7 @@ body {
   color: orange;
   font-family: fantasy;
   background-color: #b7e0f7;
-  padding-top: 50px;
+  padding-top: 0;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -20,4 +20,21 @@ h2{
 }
 p{
   font-family: cursive;
+}
+.fixed-top {
+  height: 100%; /* 100% Full-height */
+  width: 100px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s;
+}
+.jumbotron {
+  background-image: url("https://www.remarkablehoneymoons.com/wp-content/uploads/best-snorkeling-in-fiji-1000x200.jpg");
+  background-size: cover;
+  height:40vh;
 }
