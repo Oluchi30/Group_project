@@ -1,20 +1,23 @@
 body {
   padding-top: 5rem;
   color: black;
-  background-color: white;
+  background-color: #cfe0e3;
+  padding-top: 0;
 }
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
+
 .carousel-container {
-  margin: auto;
+  margin-left: 0px;
+  margin-right:0px;
 }
 
 .fixed-top {
   height: 100%; /* 100% Full-height */
-  width: 10%; /* 0 width - change this with JavaScript */
+  width: 100px; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -27,4 +30,51 @@ body {
 
 .navbar-nav {
   display: inline-block
+}
+
+h1 {
+  font-size: 5.0em;
+  color: orange
+}
+
+p {
+
+font-size: 1.5em;
+color:orange;
+}
+
+#slogan{
+  font-size: 28.0 em;
+  text-align : center
+}
+
+.jumbotron {
+  background-image: url("https://www.remarkablehoneymoons.com/wp-content/uploads/best-snorkeling-in-fiji-1000x200.jpg");
+  background-size: cover;
+  height:40vh;
+}
+
+.container-show {
+  margin-left:100px;
+}
+
+.btn-sm {
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 20px;
+  background-color: red;
+  outline-color: red;
+  border-color: red;
+
+}
+.btn-sm:hover{
+  background-color: red;
+  border-color:red;
+
+}
+
+.btn-primary:not(:disabled):not(.disabled):active{
+  background-color:red;
+  border-color:red;
+  outline-color: red;
 }
